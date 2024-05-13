@@ -1,9 +1,18 @@
-import React from 'react'
 
-const QuizCompletedScreen = () => {
-  return (
-    <div>QuizCompletedScreen</div>
-  )
+import React from 'react';
+
+interface Props {
+  totalScore: number;
 }
 
-export default QuizCompletedScreen
+const QuizCompletedScreen: React.FC<Props> = ({ totalScore }) => {
+  return (
+    <div>
+      <h1>Quiz Completed!</h1>
+      <p>Total Score: {totalScore}</p>
+    
+    </div>
+  );
+};
+
+export default QuizCompletedScreen;

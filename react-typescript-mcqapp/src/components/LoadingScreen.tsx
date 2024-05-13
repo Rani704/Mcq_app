@@ -1,9 +1,13 @@
-import React from 'react'
 
-const LoadingScreen = () => {
+import React from 'react';
+
+const LoadingScreen: React.FC = () => {
   return (
-    <div>LoadingScreen</div>
-  )
-}
+    <div>
+      <h1>Loading...</h1>
+     
+    </div>
+  );
+};
 
-export default LoadingScreen
+export default LoadingScreen;

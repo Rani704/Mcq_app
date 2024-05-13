@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import LoadingScreen from './components/LoadingScreen';
-import QuestionInterface from './QuestionInterface';
+import QuestionInterface from './components/QuestionInterface';
 import TimeUpScreen from './components/TimeUpScreen';
 import QuizCompletedScreen from './components/QuizCompletedScreen';
 import EditQuestionsScreen from './components/EditQuestionScreen';
